@@ -1,0 +1,88 @@
+:root{
+    --color1: #525454;
+}
+
+.navbar{
+    background-color: #525454;
+}
+
+.btn-outline-dark{
+    color: #fff;
+    border-color: white;
+}
+
+.twoontwo h5{
+    padding: 40px;
+    border: 2px solid var(--color1);
+    background-color:#D0D0D0 ;
+}
+/*хз почему не робит при изменении размера экрана*/
+.threeonthree p:after{
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: auto;
+    margin-top: 10px;
+
+}
+.shedule{
+    background-color: #D0D0D0;
+}
+
+.accordion-button:not(.collapsed){
+    color: #D0D0D0;
+    background-color: #525454;
+}
+.footer{
+    background: #525454;
+    color: white;
+}
+.footer-top{
+    border-bottom: 1px solid #222222;
+    padding: 60px 0 30px 0;
+}
+.footer-info{
+    margin-bottom: 30px;
+}
+.footer h3{
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer p{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.footer-top .social-links a{
+    width: 36px;
+    height: 36px;
+    background: #525454;
+    color: white;
+    text-align: center;
+    text-decoration:none;
+}
+.footer-links{
+    margin-bottom: 30px;
+}
+.footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links li{
+    padding: 10px 0;
+    color: white;
+    font-size: 18px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
